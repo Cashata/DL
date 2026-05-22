@@ -1,0 +1,1 @@
+Nothing should be ignored in this case, as the modified file appears to be a Jupyter notebook (`.ipynb`) which is a source file, and there are no build artifacts, dependencies, or temporary files in the changes provided.
