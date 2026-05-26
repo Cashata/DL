@@ -1,15 +1,12 @@
 ```
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-*/.ipynb_checkpoints/
 
-# Byte-compiled Python files
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Distribution / packaging
+*.py[cod]
+*$py.class
+*.so
 .Python
 build/
 develop-eggs/
@@ -29,9 +26,10 @@ wheels/
 
 # Environment
 .env
+.env.local
+.env.*
 .venv/
 venv/
-env/
 ENV/
 
 # IDE
@@ -40,36 +38,20 @@ ENV/
 *.swp
 *.swo
 
-# Logs
-*.log
-
 # OS
 .DS_Store
 Thumbs.db
 
+# Logs
+*.log
+
 # Coverage
 .coverage
-coverage/
 htmlcov/
-
-# MyPy
-.mypy_cache/
-
-# PyTest
-.pytest_cache/
-
-# Git
-.git/
-!.gitignore
+.coverage.*
 
 # Temporary files
 *.tmp
 *.temp
 *~
-```
-
-Wait, let me reconsider this. The modified file is just a Jupyter notebook with Cyrillic characters in the filename. There are no build artifacts, dependencies, or temporary files in the changes. This appears to be just a source file modification.
-
-```
-
 ```
